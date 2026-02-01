@@ -1,0 +1,378 @@
+
+<!DOCTYPE html>
+<meta name="description" content="WEDDINGWAY RUTA - організація весіль та приватних подій під ключ. Елегантні та персоналізовані заходи в Італії.">
+<html lang="uk">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<head>
+    <link rel="icon" type="image/png" sizes="32x32" href="ruta.png">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="ruta.png">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Організація весілля під ключ Італія, Весільна агенція, Послуги весільного організатора Італія, Замовити весілля ціна, весільний декор, приватні свята, ексклюзивні події, весільне планування, весільний координатор, тематичні весілля, розкішні весілля, весільні послуги, організація свят, весільний бюджет, весільні ідеї, весільний стиль, весільна флористика, Камерне весілля, Весілля в стилі, Еко-весілля організація, Організація весілля за кордоном, Весілля все включено">
+    <meta name="keywords" content="Организация свадьбы под ключ, Свадебное агентство, Услуги свадебного организатора, Заказать свадьбу цена, свадебный декор, частные праздники, эксклюзивные события, свадебная планировка, свадебный координатор, тематичиские свадьбы, роскошные свадьбы, свадебные услуги, организация праздников, свадебный бюджет, свадебные идеи, свадебный стиль, свадебная флористика, Камерная свадьба, Свадьба в стиле, Организация свадьбы за рубежом, Эко-свадьба организация, Свадьба все включено">
+    <meta name="keywords" content="Організація корпоративів, Замовити дитяче свято, Організація ювілеїв та днів народження, Проведення гендер-паті (Gender Reveal), Івент-агенція повного циклу, Організація тематичних вечірок, Ексклюзивні заходи під ключ, Організація святкових подій, Індивідуальний підхід до кожного клієнта, Професійне планування та координація заходів">
+    <meta name="keywords" content="Организация корпоративов, Заказать детский праздник, Организация юбилеев и дней рождения, Проведение гендер-пати (Gender Reveal), Ивент-агентство полного цикла, Организация тематических вечеринок, Эксклюзивные мероприятия под ключ, Организация праздничных событий, Индивидуальный подход к каждому клиенту, Профессиональное планирование и координация мероприятий">
+    <meta name="keywords" content="Підбір локації для весілля, Декор та флористика на свято, Ведучий на весілля ціна, Складання весільного бюджету, Технічне забезпечення заходів">
+    <meta name="keywords" content="Подбор локации для свадьбы, Декор и флористика на праздник, Ведущий на свадьбу цена, Составление свадебного бюджета, Техническое обеспечение мероприятий">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEDDINGWAY RUTA | організація свят</title>   
+</head>
+<body>
+
+        <div class="music-player" id="musicPlayer">
+    <div class="bars">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <span class="music-text">Music</span>
+</div>
+
+<audio id="bgAudio" loop>
+    <source src="ambient-light-main-7229.mp3" type="audio/mpeg">
+</audio>
+
+    <div id="magic-cursor"></div>
+
+    <div class="intro-overlay" id="loader">
+        <img src="logo.png" alt="Logo" class="intro-logo" id="introLogo">
+    </div>
+
+    <header id="mainHeader">
+        <div class="container nav-container">
+            <div class="logo"><img src="logo.png" alt="Logo"></div>
+            <nav class="nav-links">
+                <a href="#hero">Головна</a>
+                <a href="#about">Про нас</a>
+                <a href="#services">Послуги</a>
+                <a href="#scrolling-gallery">Галерея</a>
+                <a href="#contact">Контакти</a>
+            </nav>
+<button class="mobile-open-btn" id="openBtn">
+    <span></span>
+    <span></span>
+</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero" style="opacity:1; transform:none; padding:0;">
+            <div class="hero-content">
+                <p id="heroTagline">Weddingway Ruta</p>
+                <h1 id="heroTitle">Елегантність кожної миті</h1>
+                <a href="#contact" class="btn" id="heroBtn" style="opacity:0">Замовити свято</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-italia-window">
+    <div class="italia-container">
+        
+        <div class="visual-stage">
+            <div class="image-frame parallax-container">
+                <img src="aboutphoto (1).jpg" alt="Wedding in Italy" class="parallax-img">
+            </div>
+            
+            <div class="italia-stamp">
+                <div class="stamp-content">
+                    <span class="stamp-title">Destination:</span>
+                    <span class="stamp-loc">Italia</span>
+                    <svg class="olive-branch" viewBox="0 0 50 50">
+                        <path d="M25,5 C25,5 30,15 40,20 C40,20 35,25 30,40 M25,5 C25,5 20,15 10,20 C10,20 15,25 20,40" stroke="#A68A56" fill="none" stroke-width="1.5"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-stage">
+            <span class="pre-title">Відкриваючи світ</span>
+            <h2 class="serif">Ваша історія <br>в серці <span class="gold-italic">Італії</span></h2>
+            
+            <div class="text-separator"></div>
+            
+            <p class="lead-paragraph">
+                Ми не просто організовуємо весілля за кордоном. Ми створюємо персоналізований досвід «Dolce Vita».
+            </p>
+            <p>
+                На озері Комо — Weddingway Ruta стає вашим провідником у світ вишуканої італійської естетики, де кожна деталь пронизана сонцем та любов'ю.
+            </p>
+
+            <a href="#contact" class="gold-link-btn">Розпочати подорож</a>
+        </div>
+
+    </div>
+</section>
+
+        <section id="services" class="container">
+            <div class="section-title">
+                <h2>Послуги</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-ring"></i>
+                    <h3 class="serif">Весілля під ключ</h3>
+                    <p>Від першої зустрічі до координації весільного дня.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cocktail"></i>
+                    <h3 class="serif">Приватні події</h3>
+                    <p>Дні народження, ювілеї та вечірки преміум-класу.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-gem"></i>
+                    <h3 class="serif">Концептуальний декор</h3>
+                    <p>Стилістика, флористика та візуальне наповнення.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="scrolling-gallery">
+            <div class="section-title">
+                <h2>Натхнення</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="scrolling-gallery-container">
+                <div class="gallery-item-marquee"><img src="1.JPG"></div>
+                <div class="gallery-item-marquee"><img src="2.JPG"></div>
+                <div class="gallery-item-marquee"><img src="3.JPG"></div>
+                <div class="gallery-item-marquee"><img src="4.JPG"></div>
+                <div class="gallery-item-marquee"><img src="9.JPG"></div>
+                <div class="gallery-item-marquee"><img src="10.JPG"></div>
+                <div class="gallery-item-marquee"><img src="11.JPG"></div>
+                <div class="gallery-item-marquee"><img src="12.JPG"></div>
+            </div>
+            <div class="scrolling-gallery-container1" style="margin-top: 25px;">
+                <div class="gallery-item-marquee"><img src="5.JPG"></div>
+                <div class="gallery-item-marquee"><img src="6.JPG"></div>
+                <div class="gallery-item-marquee"><img src="7.JPG"></div>
+                <div class="gallery-item-marquee"><img src="8.JPG"></div>
+                <div class="gallery-item-marquee"><img src="13.JPG"></div>
+                <div class="gallery-item-marquee"><img src="14.JPG"></div>
+                <div class="gallery-item-marquee"><img src="15.JPG"></div>
+                <div class="gallery-item-marquee"><img src="16.JPG"></div>
+            </div>
+        </section>
+
+<section class="italian-cinema">
+    <div class="cinema-wrapper">
+        
+        <div class="video-holder">
+            <div class="video-frame">
+                <video id="italyVideo" autoplay muted loop playsinline poster="poster.jpg">
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+                
+                <div class="badge-italy">
+                    <span>Villa Pessina</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-holder">
+            <span class="tiny-title">Weddingway Ruta</span>
+            <h2 class="serif-title">Жива естетика <br><em>вашого свята</em></h2>
+            <p class="desc">
+                Ми створюємо атмосферу, яку хочеться проживати знову і знову. 
+                Подивіться, як виглядає справжнє італійське весілля в нашому об'єктиві.
+            </p>
+            <a href="#contact" class="gold-link">Забронювати дату</a>
+        </div>
+
+    </div>
+</section>
+
+        <section id="contact" class="container">
+            <div class="contact-box">
+                <h2 class="serif">Ваше ідеальне свято починається тут</h2>
+                <form action="https://formspree.io/f/" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label>Ім'я та Прізвище</label>
+                        <input type="text" name="name" placeholder="Введіть ваше ім'я" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Як з вами зв'язатися?</label>
+                        <input type="text" name="contact" placeholder="номер телефону або Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Побажання</label>
+                        <textarea name="message" placeholder="Дата, локація, ідея..."></textarea>
+                    </div>
+                    <button type="submit" class="btn">Надіслати запит</button>
+                </form>
+            </div>
+<div class="social-links-container">
+    <a href="https://instagram.com/" target="_blank" class="social-btn instagram" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+        <span>Instagram</span>
+    </a>
+    <a href="https://facebook.com/" target="_blank" class="social-btn facebook" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+        <span>Facebook</span>
+    </a>
+</div>
+    </section>
+    </main>
+
+    <footer>
+        <p class="serif">© 2026 WEDDINGWAY RUTA</p>
+    </footer>
+
+<div class="mobile-curtain-menu" id="curtainMenu">
+    <button class="mobile-close-btn" id="closeBtn">&times;</button>
+    
+    <nav class="mobile-nav-links">
+        <a href="#about">Про нас</a>
+        <a href="#services">Послуги</a>
+        <a href="#scrolling-gallery">Галерея</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script>
+        // КУРСОР
+        const cursor = document.getElementById('magic-cursor');
+        document.addEventListener('mousemove', (e) => {
+            gsap.to(cursor, { x: e.clientX - 11, y: e.clientY - 11, duration: 0.12 });
+        });
+
+        const interactives = document.querySelectorAll('a, button, .service-card, .gallery-item-marquee, input, textarea');
+        interactives.forEach(el => {
+            el.addEventListener('mouseenter', () => document.body.classList.add('cursor-active'));
+            el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-active'));
+        });
+
+        // ПРЕЛОАДЕР ТА ПОЯВА HERO
+        window.addEventListener('load', () => {
+            const tl = gsap.timeline();
+            tl.to("#introLogo", { opacity: 1, scale: 1, duration: 1 });
+            tl.to("#loader", { y: "-100%", duration: 1, ease: "power4.inOut", delay: 0.5 });
+            tl.to("#mainHeader", { onStart: () => document.getElementById('mainHeader').classList.add('show') });
+            tl.to("#heroTitle", { opacity: 1, y: 0, duration: 1 }, "-=0.2");
+            tl.to("#heroTagline", { opacity: 1, duration: 1 }, "-=0.5");
+            tl.to("#heroBtn", { opacity: 1, duration: 1 }, "-=0.5");
+        });
+
+        // СПОСТЕРЕЖЕННЯ ЗА СКРОЛОМ
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('section').forEach(s => observer.observe(s));
+
+document.addEventListener('DOMContentLoaded', () => {
+    const openBtn = document.getElementById('openBtn');
+    const closeBtn = document.getElementById('closeBtn');
+    const menu = document.getElementById('curtainMenu');
+    const links = document.querySelectorAll('.mobile-nav-links a');
+
+    // Відкрити меню
+    openBtn.addEventListener('click', () => {
+        menu.classList.add('active');
+        document.body.style.overflow = 'hidden'; // Заборонити скрол фону
+    });
+
+    // Закрити меню через хрестик
+    closeBtn.addEventListener('click', () => {
+        menu.classList.remove('active');
+        document.body.style.overflow = ''; // Повернути скрол
+    });
+
+    // Закрити меню при кліку на посилання
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            menu.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const player = document.getElementById('musicPlayer');
+    const audio = document.getElementById('bgAudio');
+    let isPlaying = false;
+
+    // Функція плавного ввімкнення/вимкнення
+    function fadeAudio(targetVolume) {
+        const step = 0.05;
+        const interval = 50;
+        
+        const fade = setInterval(() => {
+            if (audio.volume < targetVolume) {
+                audio.volume = Math.min(audio.volume + step, targetVolume);
+            } else {
+                audio.volume = Math.max(audio.volume - step, targetVolume);
+            }
+
+            if (Math.abs(audio.volume - targetVolume) < 0.01) {
+                clearInterval(fade);
+                if (targetVolume === 0) audio.pause();
+            }
+        }, interval);
+    }
+
+    player.addEventListener('click', () => {
+        if (!isPlaying) {
+            audio.volume = 0;
+            audio.play();
+            fadeAudio(0.4); // Вмикаємо на 40% гучності для фону
+            player.classList.add('playing');
+        } else {
+            fadeAudio(0);
+            player.classList.remove('playing');
+        }
+        isPlaying = !isPlaying;
+    });
+});
+
+document.addEventListener('scroll', () => {
+    const section = document.querySelector('.about-italia-window');
+    const img = document.querySelector('.parallax-img');
+    
+    // Проста перевірка, чи секція видима
+    const rect = section.getBoundingClientRect();
+    if (rect.top < window.innerHeight && rect.bottom > 0) {
+        const scrolled = window.pageYOffset;
+
+    }
+});
+
+// Магнітний ефект для марки
+const stamp = document.querySelector('.italia-stamp');
+document.addEventListener('mousemove', (e) => {
+    if(stamp) {
+        const x = (window.innerWidth / 2 - e.pageX) / 30;
+        const y = (window.innerHeight / 2 - e.pageY) / 30;
+        // Марка ледь помітно рухається за мишкою
+        stamp.style.transform = `translate(${x}px, ${y}px) rotate(${x * 0.5}deg)`;
+    }
+});
+
+let docTitle = document.title;
+window.addEventListener("blur", () => {
+    document.title = "повертайся в Італію..."; // Текст, коли пішли з вкладки
+});
+window.addEventListener("focus", () => {
+    document.title = docTitle; // Повертаємо оригінальну назву
+});
+
+const video = document.getElementById('promoVideo');
+const btn = document.getElementById('soundToggle');
+const icon = btn.querySelector('.icon');
+
+btn.addEventListener('click', () => {
+    if (video.muted) {
+        video.muted = false;
+        btn.innerHTML = '<span class="icon">🔊</span> Вимкнути звук';
+    } else {
+        video.muted = true;
+        btn.innerHTML = '<span class="icon">🔇</span> Увімкнути звук';
+    }
+});
+
+    </script>
+</body>
+</html>
